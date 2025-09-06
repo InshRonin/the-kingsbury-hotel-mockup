@@ -82,4 +82,4 @@ Project Link: [https://github.com/InshRonin/the-kingsbury-hotel-mockup](https://
 - **The Kingsbury Hotel, Colombo:** For inspiration and brand identity.
 - **Icons:** Font Awesome for providing free iconography.
 - **Google Fonts:** For providing the web fonts.
-- **UKM:** For the academic opportunity and guidance.
+- **UoM:** For the academic opportunity and guidance.
