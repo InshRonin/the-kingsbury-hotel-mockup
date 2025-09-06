@@ -71,8 +71,7 @@ You only need a modern web browser to view the website.
 
 ## 📞 Contact
 
-MIM Insaf
-**LinkedIn:** [Mohamed Inshaf](https://www.linkedin.com/in/mohamed-inshaf-150180364/)
+MIM Insaf - **LinkedIn:** [Mohamed Inshaf](https://www.linkedin.com/in/mohamed-inshaf-150180364/)
 
 
 Project Link: [https://github.com/InshRonin/the-kingsbury-hotel-mockup](https://github.com/Inshronin/the-kingsbury-hotel-mockup)
