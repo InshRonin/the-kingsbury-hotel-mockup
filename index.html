@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombo Hotels | The Kingsbury Hotel Colombo</title>
+    <meta name="keywords"
+        content="colombo hotels, hotels in colombo, the kingsbury colombo, luxury hotel colombo, hotels in sri lanka, 5 star hotels in colombo, best hotels in colombo, harbour court, spa hotel, dining colombo, sri lanka">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Made by E241010164 (MIM Insaf) -->
+</head>
+
+<body>
+    <!--Header -->
+    <header>
+        <nav id="navbar" class="sticky">
+            <div class="container">
+                <h1 class="logo"> <img src="./img/Kingsbury.png" alt="The Kingsbury Logo" class="logo-img"><a
+                        href="index.html">The Kingsbury</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+                    <p class="lead">"Experience ultimate luxury and comfort at our hotel, where unforgettable memories
+                        are made."</p>
+                    <a class="btn" href="about.html">About Our Hotel</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="home-info" class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">The History</span> of Our Hotel</h2>
+            <p>
+                The Kingsbury is a luxurious five-star hotel in Colombo, Sri Lanka, offering views of Colombo Harbour.
+                Established in 1973 and renovated in 2013, it features 229 rooms and suites with modern amenities.
+                Guests can enjoy international and fusion cuisine at the Harbour Court, along with specialty restaurants
+                and bars.
+            </p>
+            <a href="facilities.html" class="btn btn-light">Our Facilities</a>
+        </div>
+
+    </div>
+
+    <section id="features">
+        <h3 class="l-heading service">Our Key <span class="text-primary">Services</span></h3>
+        <div class="box bg-light">
+            <img src="./img/hotel-solid.svg" alt="Hotel icon">
+            <h3>Event Hosting</h3>
+            <p>The Kingsbury Hotel excels in meeting and banqueting, making it a prime <br>choice for events.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="./img/food.svg" alt="Food icon">
+            <h3>Dining</h3>
+            <p>The Kingsbury offers exquisite dining experiences with diverse, flavorful culinary options.</p>
+        </div>
+        <div class="box bg-light">
+            <img src="./img/briefcase.svg" alt="briefcase icon">
+            <h3>Accommodation</h3>
+            <p>The hotel offers a range of rooms and suites, blending modern luxury with sophisticated amenities.</p>
+        </div>
+    </section>
+
+    <div id="text0">
+        <h3 class="l-heading" id="gallery-text">Our <span class="text-primary">Gallery</span></h3>
+        <p class="p-text">
+            Step into a collection of unforgettable moments in this gallery.
+        </p>
+        <p class="p-text">
+            Hover over any image to experience an enhanced, zoomed-in view.
+        </p>
+
+        <h5 id="text1">Don't forget to join us and add your special moments to the collection!</h5>
+
+    </div>
+    <div class="slide-container">
+
+        <div class="slide">
+            <img src="./img/fitness.jpg" alt="fitness area">
+        </div>
+        <div class="slide">
+            <img src="./img/pool.jpg" alt="Swimming pool">
+        </div>
+        <div class="slide">
+            <img src="./img/room-gallery.jpg" alt="bedroom view">
+        </div>
+        <div class="slide">
+            <img src="./img/spa.jpg" alt="spa area">
+        </div>
+        <div class="slide">
+            <img src="./img/Reception area.jpeg" alt="Reception area">
+        </div>
+        <div class="slide">
+            <img src="./img/street-view.jpg" alt="Street view">
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="clr"></div>
+    <!--Footer -->
+    <footer id="main-footer">
+
+
+        <div id="c-info">
+            <h3><strong>The Kingsbury Hotel</strong></h3>
+            <h5>Address:</h5>
+            <p>No. 48, Janadhipathi Mawatha,<br>Colombo 01, Sri Lanka</p>
+            <h5>Phone:</h5>
+            <p>+94 11 2421221</p>
+            <h5>Email:</h5>
+            <p>info@thekingsburyhotel.com</p>
+        </div>
+
+
+        <div id="media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a class="abtn" href="https://facebook.com/thekingsburyhotel" target="_blank">Facebook</a></li>
+                <li><a class="abtn" href="https://twitter.com/thekingsbury" target="_blank">Twitter</a></li>
+                <li><a class="abtn" href="https://instagram.com/thekingsbury" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+
+        <div id="social">
+            <h3>Contact Us</h3>
+            <form action="/submit-form" method="POST" class="form-submit">
+                <input type="text" name="name" placeholder="Your Name" class="typebox" required>
+                <input type="email" name="email" placeholder="Your Email" class="typebox" required>
+                <input type="text" name="subject" placeholder="Subject" class="typebox" required>
+                <textarea name="message" placeholder="Your Message" class="typebox" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+
+
+        <div id="news">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="/subscribe" method="POST" style="display: flex; flex-direction: column; gap: 10px;">
+                <input type="email" name="newsletter-email" placeholder="Enter your email" class="typebox" required>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </div>
+
+        <div id="copy">
+            Kingsbury&copy; 2025. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>

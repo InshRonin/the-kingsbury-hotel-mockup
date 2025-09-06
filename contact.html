@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombo Hotels | The Kingsbury Hotel Colombo</title>
+    <meta name="keywords"
+        content="colombo hotels, hotels in colombo, the kingsbury colombo, luxury hotel colombo, hotels in sri lanka, 5 star hotels in colombo, best hotels in colombo, harbour court, spa hotel, dining colombo, sri lanka">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Made by E241010164 (MIM Insaf) -->
+
+</head>
+
+<body>
+    <!--Header -->
+    <header>
+        <nav id="navbar" class="sticky">
+            <div class="container">
+                <h1 class="logo"> <img src="./img/Kingsbury.png" alt="The Kingsbury Logo" class="logo-img"><a
+                        href="index.html">The Kingsbury</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="contact-form" class="opt-3">
+        <div class="container">
+            <h1 class="l-heading common"><span class="text-primary">Contact</span> Us</h1>
+            <p class="common">Please fill out the form below for inquiry</p>
+
+            <form action="/action.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contact No.</label>
+                    <input type="phone" name="phone" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="subject" name="subject" id="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div id="customer">
+
+                    <label id="label1">Customer Type:</label>
+
+                    <input type="radio" id="new-customer" name="customer-type" value="new">
+                    <label for="new-customer">New Customer</label>
+
+
+                    <input type="radio" id="returning-customer" name="customer-type" value="returning">
+                    <label for="returning-customer">Returning Customer</label>
+
+                </div>
+
+                <input type="submit" name="submit" id="submit" class="btn">
+
+
+            </form>
+        </div>
+    </section>
+
+    <div class="contact-etc">
+        <h2 class="l-heading">Our <span class="text-primary">Contact</span> Details</Details>
+        </h2>
+        <p>
+        <h4>Address:</h4> No. 48, Janadhipathi Mawatha, Colombo 01, Sri Lanka</p>
+        <p>
+        <h4>Phone:</h4> +94 11 2421221</p>
+    </div>
+
+    <div class="popup-container">
+        <button id="openPopup">Click For More Contatcs</button>
+
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a class="abtn" href="https://facebook.com/thekingsburyhotel" target="_blank">Facebook</a></li>
+                    <li><a class="abtn" href="https://twitter.com/thekingsbury" target="_blank">Twitter</a></li>
+                    <li><a class="abtn" href="https://instagram.com/thekingsbury" target="_blank">Instagram</a></li>
+                </ul>
+                <br>
+                <h4>Email:</h4>
+                <p>info@thekingsburyhotel.com</p>
+                <button id="closePopup">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 id="map" class="l-heading">Our Location</h3>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6459390783366!2d79.8419406!3d6.932852899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259259a6157fb%3A0x8c0cebb288af4419!2sThe%20Kingsbury%20Colombo!5e0!3m2!1sen!2slk!4v1742312121239!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="100%" height="100%" style="border:0;"
+                allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+
+    <!--Footer -->
+    <footer id="main-footer">
+
+
+        <div id="c-info">
+            <h3><strong>The Kingsbury Hotel</strong></h3>
+            <h5>Address:</h5>
+            <p>No. 48, Janadhipathi Mawatha,<br>Colombo 01, Sri Lanka</p>
+            <h5>Phone:</h5>
+            <p>+94 11 2421221</p>
+            <h5>Email:</h5>
+            <p>info@thekingsburyhotel.com</p>
+        </div>
+
+
+        <div id="media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a class="abtn" href="https://facebook.com/thekingsburyhotel" target="_blank">Facebook</a></li>
+                <li><a class="abtn" href="https://twitter.com/thekingsbury" target="_blank">Twitter</a></li>
+                <li><a class="abtn" href="https://instagram.com/thekingsbury" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+
+
+        <div id="social">
+            <h3>Contact Us</h3>
+            <form action="/submit-form" method="POST" class="form-submit">
+                <input type="text" name="name" placeholder="Your Name" class="typebox" required>
+                <input type="email" name="email" placeholder="Your Email" class="typebox" required>
+                <input type="text" name="subject" placeholder="Subject" class="typebox" required>
+                <textarea name="message" placeholder="Your Message" class="typebox" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+
+
+        <div id="news">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="/subscribe" method="POST" style="display: flex; flex-direction: column; gap: 10px;">
+                <input type="email" name="newsletter-email" placeholder="Enter your email" class="typebox" required>
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </div>
+
+        <div id="copy">
+            Kingsbury&copy; 2025. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
