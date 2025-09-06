@@ -11,7 +11,7 @@ A fully responsive and modern website mockup for **The Kingsbury Hotel** in Colo
 
 ## 🚀 Live Demo
 
-[View Live Site](https://your-username.github.io/the-kingsbury-hotel-mockup/)
+[View Live Site](https://inshronin.github.io/the-kingsbury-hotel-mockup/)
 *<!-- Replace 'your-username' with your actual GitHub username after deploying the site. -->*
 
 ## 📖 About The Project
@@ -75,7 +75,7 @@ MIM Insaf
 **LinkedIn:** [Mohamed Inshaf](https://www.linkedin.com/in/mohamed-inshaf-150180364/)
 
 
-Project Link: [https://github.com/InshRonin/the-kingsbury-hotel-mockup](https://github.com/your-username/the-kingsbury-hotel-mockup)
+Project Link: [https://github.com/InshRonin/the-kingsbury-hotel-mockup](https://github.com/Inshronin/the-kingsbury-hotel-mockup)
 *<!-- Replace with your actual repository URL -->*
 
 ## 🙏 Acknowledgments
